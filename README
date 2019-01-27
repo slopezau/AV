@@ -1,11 +1,17 @@
-A toy to explore with the Alternative Vote system proposed in the 2011 referendum.
+# How Optional Preferential Voting Works...
+Relies heavily upon a modified JS created by [c-oreills](https://github.com/c-oreills/). They laid the ground-work, I just made it a bit more 'informative'.
 
-Also experimenting with using Javascript in a more functional style (side effects are used to render results to the DOM).
+---
 
-Enter ballots into the text area in the following form:
-
-pref:n
-
-Where pref is a list of candidates in preferred order (candidates must be uppercase A-I) and n is the number of voters with this preference.
-
-Once a candidate has been eliminated, their colour is shown faded in the subsequent vote counts. 
+_Default Candidates/Votes_
+```
+A: 4
+BA: 4
+BC: 1
+C: 5
+DAB: 1
+D: 1
+CD: 1
+FA: 5
+EB: 1
+```
